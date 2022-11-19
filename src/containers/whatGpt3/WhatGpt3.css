@@ -1,0 +1,93 @@
+.whatgpt3{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.part1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part1 h2{
+width:100% ;
+color: #fff;
+font-weight: bold;
+margin: 1rem;
+flex: 1;
+
+} 
+.part1 p{
+    flex: 3;
+    color: #81AFDD;
+    margin-left: 5rem;
+    line-height: 24px;
+    } 
+    .part2{
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .part2 h2{
+  
+    width:100% ;
+    color: #fff;
+    font-weight: bold;
+    margin: 1rem;
+    flex: 1;
+    
+    } 
+    .part2 p{
+        
+        flex: 1;
+        color: #81AFDD;
+        margin-left: 5rem;
+        line-height: 24px;
+        } 
+        .part3{
+            margin-top: 2rem;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content:right;
+            align-items: center;
+        }
+        .chatbots{
+            margin-top:-1.3rem;
+        }
+        .chatbots,.knowledge,.education{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-right: 0.5rem;
+        }
+        .chatbots h2,.knowledge h2,.education h2{
+            justify-content: flex-start;
+            color: #fff;
+        }
+        .chatbots p,.knowledge p,.education p{
+            margin-top: 2rem;
+            margin-right: 1rem;
+            color: #81AFDD;
+        }
