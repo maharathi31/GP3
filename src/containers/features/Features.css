@@ -1,0 +1,46 @@
+.features{
+    display: flex;
+    margin: 2rem 4rem;
+}
+.f1{
+    justify-content:space-around;
+    display:flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.f1 p{
+    margin-top: 2rem;
+}
+.f2,.f3{
+    display: flex;
+}
+.f2 p,.f3 p{
+    margin-left: 4rem;
+    flex: 2;
+    width: 100%;
+    color: #81AFDD;
+}
+.f2 h3,.f3 h3{
+    flex: 1;
+    color: #fff;
+}
+.f2p{
+    display: flex;
+    flex-direction: column;
+}
+.f3{
+    margin-top: 2rem;
+}
+@media screen and (max-width:500px){
+    .f2.f3{
+        flex-direction: column;
+        
+    }
+    .f2 p,.f3 p{
+        font-size: 10px;
+    }
+    .f2 h3,.f3 h3{
+        font-size: 16px;
+}
+}
+    
